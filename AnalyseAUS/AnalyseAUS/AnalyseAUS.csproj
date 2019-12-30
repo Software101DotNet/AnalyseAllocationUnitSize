@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>AnalyseAUS.Program</StartupObject>
+    <Authors>Anthony Ransley</Authors>
+    <Company>Software101.Net</Company>
+    <Copyright>Anthony Ransley</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Software101DotNet/AnalyseAllocationUnitSize</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Software101DotNet/AnalyseAllocationUnitSize</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
